@@ -1,3 +1,5 @@
+import Navbar from "../components/Navbar";
+
 export const metadata = {
   title: "NUVAREX",
   description: "Unified Business Operating System",
@@ -10,7 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
