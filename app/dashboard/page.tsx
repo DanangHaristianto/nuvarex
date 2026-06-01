@@ -3,7 +3,9 @@ export default function DashboardPage() {
     <main>
       <h1>NUVAREX Dashboard</h1>
 
-      <p>Welcome to NUVAREX Business OS</p>
+      <p>Unified Business Operating System</p>
+
+      <h2>Modules</h2>
 
       <ul>
         <li>Finance</li>
@@ -15,6 +17,7 @@ export default function DashboardPage() {
         <li>Loans</li>
         <li>Analytics</li>
         <li>Reports</li>
+        <li>Settings</li>
       </ul>
     </main>
   );
